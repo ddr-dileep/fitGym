@@ -1,0 +1,84 @@
+.getting-started{
+    color: aliceblue;
+}
+
+.coaching .box-coaching {
+    text-align: center;
+    border: 2px solid rgba(200, 200, 200, 0.198);
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 9rem;
+    padding: 2rem 4rem;
+}
+.coaching .box-coaching h2{
+    color: black;
+    font-size: 3.8rem;
+    font-weight: 700;
+    font-family: 'Oleo Script', cursive;
+    
+}
+
+.coaching .box-coaching .para-coaching{
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-shadow: 1cm;
+    padding-top :1rem ;
+    padding-bottom: 0rem;
+}
+.coaching .box-coaching a{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    background-color: rgb(241, 163, 163);
+    border: 1px solid rgb(107, 107, 107);
+    padding: 1rem 2rem;
+    font-size: 2.1rem;
+    border-radius: 30px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    transition: .29s;
+    margin-top: 1rem;
+}
+.coaching .box-coaching a:hover{
+    background-color: rgb(250, 126, 126);
+    color: rgb(53, 1, 1);
+    border: 1px solid rgb(124, 100, 100);
+}
+
+.carousel-item img{
+    height: 450px;
+}
+.inner-site-other-trianer {
+  font-size: 18px;
+  margin:15px 0 0 0;
+   
+}
+.inner-site-other-trianer h3{
+  font-size: 18px;
+  /* margin:15px 0 0 0; */
+  font-weight: bold;
+   
+}
+
+.image-section-top-trianer{
+    background-image: url(../images/about/w.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top; 
+    box-sizing: border-box;
+}
+.sss-hover{
+    background-color: #fff;
+    padding : 20px;
+    transition: all .5s;
+}
+.sss-hover:hover{
+    color: #fff;
+    background-color: rgba(2, 1, 46, 0.788);
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: .1rem .1rem .6rem .2rem rgba(255, 255, 255, 0.4);
+}

@@ -1,0 +1,83 @@
+.header-image-about{
+    background-image: url(../images/about/1.jpg);
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+body,html {
+    font-size: 16px;
+    background-color: #fff;
+}
+nav{
+    font-size:12px;
+}
+.card-boxes{
+   transition: all 0.8s;
+    padding: 60px 30px;
+}
+.card-boxes:hover{
+    transform: translateY(-10px);
+    background-color: #fff;
+    color: #000;
+    box-shadow: .2px .2px 4px 2px rgb(65, 64, 64);
+    cursor: pointer;
+}
+.bg-image-dd{
+    background-image:linear-gradient( rgba(31, 44, 80, 0.863) 100%, rgba(214, 199, 199, 0.5)100%), url(../images/about/dd.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.card-title-image-pic{
+    transition: all 0.8s;
+}
+
+.card-title-image-pic:hover {
+    transform: scale(1.1);
+    box-shadow: .2px .2px 4px 2px rgb(65, 64, 64);
+    cursor: pointer;
+}
+.image1-right-our-story{
+    background-image: url(../images/about/h.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;  transition: all 0.8s;
+   
+}
+.image1-left-our-story{
+    background-image: url(../images/about/Best-Gyms-In-Chandigarh.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;  transition: all 0.8s;
+}
+.image1-right-our-story:hover,
+.image1-left-our-story:hover
+{
+    transform: scale(1.1);
+}
+.image-danger-hover-about{
+    transition: all 0.8s;
+    color: #fff;
+
+}
+.image-danger-hover-about:hover{
+    transform: translateY(-10px);
+    box-shadow: .2px .2px 4px 2px rgb(65, 64, 64);
+    cursor: pointer;
+    background-color: rgba(41, 148, 41, 0.562);
+}
+.bg-danger-image-story-sec{
+    background-image: linear-gradient( rgba(34, 34, 33, 0.815) 100%, rgba(59, 17, 17, 0.808)100%), url(../images/about/Best-Gyms-In-Chandigarh.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}

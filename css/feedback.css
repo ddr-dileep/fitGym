@@ -1,0 +1,8 @@
+.image-section-top-feedaback{
+    background-image: url(../images/fe.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+}
